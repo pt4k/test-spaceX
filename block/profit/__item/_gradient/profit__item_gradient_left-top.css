@@ -1,0 +1,25 @@
+.profit__item_gradient_left-top {
+  background-image: linear-gradient(
+    to left top,
+    transparent 60%,
+    rgb(255, 255, 255, 0.04)
+  );
+}
+
+.profit__item_gradient_left-top:hover {
+  transition: background-image 0.3s ease;
+  background-image: linear-gradient(
+    to left top,
+    transparent 60%,
+    rgb(255, 255, 255, 0.3)
+  );
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to left top,
+    transparent 65%,
+    transparent,
+    rgb(255, 255, 255) 35%
+  );
+  border-image-slice: 1;
+  cursor: pointer;
+}

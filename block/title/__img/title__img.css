@@ -1,0 +1,32 @@
+.title__img {
+  position: absolute;
+  bottom: 55px;
+  right: -162px;
+}
+
+@media screen and (min-width: 1921px) {
+  .title__img {
+    bottom: 50px;
+    right: -163px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .title__img {
+    width: 352px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .title__img {
+    width: 250px;
+    bottom: 170px;
+    right: -125px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title__img {
+    display: none;
+  }
+}

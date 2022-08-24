@@ -1,0 +1,16 @@
+.profit__item {
+  padding-top: 38px;
+  color: #ffffff;
+}
+
+.profit__item:hover {
+  transition: opacity 0.3s ease;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+  .profit__item {
+    padding-top: 0;
+  }
+}

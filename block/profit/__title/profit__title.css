@@ -1,0 +1,11 @@
+.profit__title {
+  font-weight: 700;
+  font-size: 55px;
+  margin: 15px auto 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .profit__title {
+    font-size: 35px;
+  }
+}

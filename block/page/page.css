@@ -1,0 +1,40 @@
+.page {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  max-width: 1920px;
+  width: 100%;
+  min-height: 660px;
+  margin: 0 auto;
+  background: url(../../images/space_background.jpg) no-repeat center / contain;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (min-width: 1921px) {
+  .page {
+    max-width: 1920px;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .page {
+    max-width: 1024px;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    max-width: 540px;
+  }
+}

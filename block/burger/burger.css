@@ -1,0 +1,17 @@
+.burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60px;
+  width: 80px;
+  margin: 5px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 767px) {
+  .burger {
+    display: none;
+  }
+}

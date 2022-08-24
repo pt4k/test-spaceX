@@ -1,0 +1,22 @@
+.profit {
+  text-align: center;
+  padding-top: 41px;
+}
+
+@media screen and (max-width: 1279px) {
+  .profit {
+    padding: 70px 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .profit {
+    padding: 40px 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .profit {
+    padding: 410px 0 0 0;
+  }
+}

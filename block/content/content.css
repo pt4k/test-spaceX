@@ -1,0 +1,23 @@
+.content {
+  padding: 0 332px 0 375px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1921px) {
+  .content {
+    padding: 0 332px 0 375px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .content {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    display: block;
+  }
+}

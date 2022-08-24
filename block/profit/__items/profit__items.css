@@ -1,0 +1,30 @@
+.profit__items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid: 180px 180px / 190px 190px;
+  gap: 10px;
+  transition: opacity 0.3s ease;
+}
+
+@media screen and (max-width: 1279px) {
+  .profit__items {
+    grid: repeat(2, 150px) / repeat(2, 150px);
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .profit__items {
+    grid: repeat(4, 120px) / 110px;
+    gap: 15px 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .profit__items {
+    grid: 120px / repeat(4, 120px);
+    gap: 10px;
+  }
+}

@@ -1,0 +1,25 @@
+.title__form-button {
+  width: 180px;
+  height: 35px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to right top,
+    #3969a6 10%,
+    #101f2d 30%,
+    #101f2d 70%,
+    #3969a6 90%
+  );
+  border-image-slice: 1;
+  padding: 0;
+  opacity: 0.6;
+}
+
+.title__form-button:hover {
+  transition: opacity 0.3s ease;
+  opacity: 0.3;
+  cursor: pointer;
+}
